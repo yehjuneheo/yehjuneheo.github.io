@@ -1,0 +1,26 @@
+
+
+
+
+/********************** Servicios **********************/
+
+.servicios .row{
+    text-align: center;
+}
+
+
+/********************** Media Q **********************/
+
+@media (max-width: 760px) {
+    .site-services .row{
+        grid-template-columns: 90%;
+    }
+    
+    .site-services .row .columns{
+        transform: scale(1)!important;
+    }
+
+    .site-services .row .recomendado{
+        transform: scale(1)!important;
+    }
+}

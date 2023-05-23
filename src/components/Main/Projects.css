@@ -1,0 +1,121 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 50px;
+}
+
+.project {
+    width: 100%;
+    text-align: center;
+}
+
+.project-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.project-button span {
+    display: inline-block;
+}
+
+.arrow {
+    font-size: 2em;
+}
+
+.project-image {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 15px 15px;
+    opacity: 0.9;
+}
+
+.project-image:hover {
+    opacity: 0.6;
+    border: 1px solid var(--green);
+    transform: translateY(-10px);
+}
+
+
+.project-title {
+    margin: 10px 0;
+    font-size: 2em;
+    color: var(--green);
+}
+
+.project-tools {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+.project-description {
+    overflow: hidden;
+    color: var(--light-color);
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 0 15px;
+    line-height: 2rem;
+}
+
+.project-description p {
+    text-transform: none;
+}
+
+.project-tools li {
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 1.2em;
+    color: var(--light-color);
+}
+
+.github-link {
+    position: relative;
+    top: 20px;
+    right: -100px;
+    color: #fff; /* Change color as per your requirement */
+    z-index: 2;
+}
+
+.github-link:hover {
+    color: var(--green); /* Change hover color as per your requirement */
+}
+
+.go-to-github {
+    display: block;
+    text-align: center;
+    padding: 2rem 1rem 4rem;
+}
+
+.go-to-github p{
+    color: var(--light-color);
+    font-size: 2.4em;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.go-to-github a{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 990px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 760px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
