@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Personal_Website_V2/static/css/main.47407fe6.css",
+    "main.js": "/Personal_Website_V2/static/js/main.e43385a7.js",
+    "static/media/image_cog.png": "/Personal_Website_V2/static/media/image_cog.97d8c6f520ea36b568bf.png",
+    "static/media/meetingu-cover3.png": "/Personal_Website_V2/static/media/meetingu-cover3.8abba1de11a72d57b528.png",
+    "static/media/v1.png": "/Personal_Website_V2/static/media/v1.5f8a413927be98459ab5.png",
+    "static/media/raft2.png": "/Personal_Website_V2/static/media/raft2.50fce0340ca6f609d16c.png",
+    "static/media/game_img.png": "/Personal_Website_V2/static/media/game_img.54b7845fe1d7c8405512.png",
+    "static/media/cnn.jpg": "/Personal_Website_V2/static/media/cnn.6f603ef2fbf67323cfa7.jpg",
+    "static/media/gan3.jpg": "/Personal_Website_V2/static/media/gan3.4ec81470517b3e6670c6.jpg",
+    "static/media/fakenews.png": "/Personal_Website_V2/static/media/fakenews.393028b68196a233510a.png",
+    "static/media/ut2.jpg": "/Personal_Website_V2/static/media/ut2.b823b7f535ff93c90cd2.jpg",
+    "static/media/loss2.jpg": "/Personal_Website_V2/static/media/loss2.5565643cbf1f86d3a62f.jpg",
+    "index.html": "/Personal_Website_V2/index.html",
+    "main.47407fe6.css.map": "/Personal_Website_V2/static/css/main.47407fe6.css.map",
+    "main.e43385a7.js.map": "/Personal_Website_V2/static/js/main.e43385a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47407fe6.css",
+    "static/js/main.e43385a7.js"
+  ]
+}
