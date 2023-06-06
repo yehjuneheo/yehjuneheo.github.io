@@ -4,6 +4,11 @@ import { ButtomGet } from '../ButtomGet/ButtomGet';
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
 import unity_icon from '../../img/unity-icon.png'
+import next_js_icon from '../../img/nextjs-icon.png'
+import prisma_icon from '../../img/prisma-icon-2.png'
+import planetscale_icon from '../../img/planetscale-icon-2.png'
+import cloudcraft_icon from '../../img/cloudcraft-icon.png'
+
 
 const Skill = ({ alt, src, skill, proficiency, selectedSkill, setSelectedSkill }) => {
     const [progress, setProgress] = useState(-1);
@@ -94,8 +99,25 @@ const About = () => {
             </div>
             <div className="columns col-skill" data-aos="fade-left" data-aos-delay="650">
                 <h3>skills</h3>
+                <h4>Currently Learning</h4>
                 <h4>Languages & Databases</h4>
                 <div className="skill">
+                    <Skill
+                        alt="Go"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+                        skill="Go"
+                        proficiency="60"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
+                    <Skill
+                        alt="PlanetScale"
+                        src={planetscale_icon}
+                        skill="PlanetScale"
+                        proficiency="50"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
                     <Skill
                         alt="Python"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
@@ -108,7 +130,7 @@ const About = () => {
                         alt="Js"
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
                         skill="JavaScript"
-                        proficiency="60"
+                        proficiency="70"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -116,7 +138,7 @@ const About = () => {
                         alt="HTML"
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
                         skill="HTML"
-                        proficiency="80"
+                        proficiency="90"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -124,7 +146,7 @@ const About = () => {
                         alt="CSS"
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
                         skill="CSS"
-                        proficiency="80"
+                        proficiency="90"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -132,7 +154,7 @@ const About = () => {
                         alt="C" 
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
                         skill="C"
-                        proficiency="60"
+                        proficiency="70"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -140,7 +162,7 @@ const About = () => {
                         alt="C++"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
                         skill="C++"
-                        proficiency="50"
+                        proficiency="70"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -148,7 +170,7 @@ const About = () => {
                         alt="C#"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
                         skill="C#"
-                        proficiency="40"
+                        proficiency="50"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -156,7 +178,15 @@ const About = () => {
                         alt="Java"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
                         skill="Java"
-                        proficiency="30"
+                        proficiency="60"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
+                    <Skill
+                        alt="Php"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                        skill="Php"
+                        proficiency="50"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -164,13 +194,37 @@ const About = () => {
                         alt="MySQL"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
                         skill="MySQL"
-                        proficiency="30"
+                        proficiency="70"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
+                    <Skill
+                        alt="R"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
+                        skill="R"
+                        proficiency="40"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
                 </div>
                 <h4>Frameworks & Platforms</h4>
                 <div className="skill">
+                    <Skill
+                        alt="NextJS"
+                        src={next_js_icon}
+                        skill="NextJS"
+                        proficiency="70"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
+                    <Skill
+                        alt="Prisma"
+                        src={prisma_icon}
+                        skill="Prisma"
+                        proficiency="60"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
                     <Skill
                         alt="Django"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
@@ -188,34 +242,10 @@ const About = () => {
                         setSelectedSkill={setSelectedSkill}
                     />
                     <Skill
-                        alt="TensorFlow"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
-                        skill="TensorFlow"
-                        proficiency="30"
-                        selectedSkill={selectedSkill}
-                        setSelectedSkill={setSelectedSkill}
-                    />
-                    <Skill
-                        alt="Numpy"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
-                        skill="Numpy"
-                        proficiency="50"
-                        selectedSkill={selectedSkill}
-                        setSelectedSkill={setSelectedSkill}
-                    />
-                    <Skill
-                        alt="Angular" 
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
-                        skill="Angular"
-                        proficiency="30"
-                        selectedSkill={selectedSkill}
-                        setSelectedSkill={setSelectedSkill}
-                    />
-                    <Skill
                         alt="NodeJS"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                         skill="NodeJS"
-                        proficiency="30"
+                        proficiency="50"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -223,15 +253,7 @@ const About = () => {
                         alt="Unity"
                         src={unity_icon}
                         skill="Unity"
-                        proficiency="60"
-                        selectedSkill={selectedSkill}
-                        setSelectedSkill={setSelectedSkill}
-                    />
-                    <Skill
-                        alt="OpenCV"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
-                        skill="OpenCV"
-                        proficiency="30"
+                        proficiency="70"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -247,7 +269,15 @@ const About = () => {
                         alt="Git"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                         skill="Git"
-                        proficiency="50"
+                        proficiency="80"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
+                    <Skill
+                        alt="Jira"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                        skill="Jira"
+                        proficiency="80"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -255,7 +285,15 @@ const About = () => {
                         alt="AWS"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
                         skill="AWS"
-                        proficiency="30"
+                        proficiency="50"
+                        selectedSkill={selectedSkill}
+                        setSelectedSkill={setSelectedSkill}
+                    />
+                    <Skill
+                        alt="Cloud Craft"
+                        src={cloudcraft_icon}
+                        skill="Cloud Craft"
+                        proficiency="40"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -263,15 +301,7 @@ const About = () => {
                         alt="Google Cloud"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
                         skill="Google Cloud"
-                        proficiency="30"
-                        selectedSkill={selectedSkill}
-                        setSelectedSkill={setSelectedSkill}
-                    />
-                    <Skill
-                        alt="Anaconda"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg"
-                        skill="Anaconda"
-                        proficiency="30"
+                        proficiency="50"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />
@@ -287,7 +317,7 @@ const About = () => {
                         alt="Figma"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
                         skill="Figma"
-                        proficiency="30"
+                        proficiency="70"
                         selectedSkill={selectedSkill}
                         setSelectedSkill={setSelectedSkill}
                     />

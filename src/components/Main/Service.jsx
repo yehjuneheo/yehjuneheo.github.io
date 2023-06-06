@@ -10,8 +10,8 @@ const events = [
     {
         date: '2023-05 ~ 2023-08',
         title: 'Software Engineer',
-        basicInfo: 'STP',
-        explanation: 'I am currently working on a website that precisely calculates the area surface of 3D objects. This company is a manufacturing company that prints 3D objects out of various materials based on customers\' orders. This website will be used for the STP company to allow customers to get an estimated price of their products, along with a system to order online and get shipped.'
+        basicInfo: 'Him Technology',
+        explanation: 'I am currently working on a website that precisely calculates the area surface of 3D objects in a STEP file. This company is a manufacturing company that prints 3D objects out of various materials based on customers\' orders. This website will be used for the Him Technology company to allow customers to get an estimated price of their products, along with a system to order online and get shipped.'
     },
     {
         date: '2022-12 ~ Present',
