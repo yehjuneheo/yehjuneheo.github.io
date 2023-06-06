@@ -78,6 +78,7 @@ section .row .col-skill h4{
     flex-wrap: wrap;
 }
 
+
 .skill h5{
     background: var(--black);
     text-align: center;

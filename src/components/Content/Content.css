@@ -116,8 +116,8 @@
     width: 30px;
     border: 2px solid #fff;
     position: absolute;
+    bottom: -80%;
     left: 49%;
-    bottom: -300px;
     border-radius: 50px;
     cursor: pointer;
     pointer-events: auto;
