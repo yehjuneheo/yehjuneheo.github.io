@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f3a89feb.css",
-    "main.js": "/static/js/main.3cd51cee.js",
+    "main.js": "/static/js/main.b7ba4035.js",
     "static/media/image_cog.png": "/static/media/image_cog.97d8c6f520ea36b568bf.png",
     "static/media/meetingu-cover3.png": "/static/media/meetingu-cover3.8abba1de11a72d57b528.png",
     "static/media/v1.png": "/static/media/v1.5f8a413927be98459ab5.png",
@@ -12,12 +12,15 @@
     "static/media/fakenews.png": "/static/media/fakenews.393028b68196a233510a.png",
     "static/media/ut2.jpg": "/static/media/ut2.b823b7f535ff93c90cd2.jpg",
     "static/media/loss2.jpg": "/static/media/loss2.5565643cbf1f86d3a62f.jpg",
+    "static/media/cloudcraft-icon.png": "/static/media/cloudcraft-icon.2ce5c4da295f07c0fbc0.png",
+    "static/media/nextjs-icon.png": "/static/media/nextjs-icon.48ddc8121a0fcb543d64.png",
+    "static/media/prisma-icon-2.png": "/static/media/prisma-icon-2.f544e57be3afd4500f22.png",
     "index.html": "/index.html",
     "main.f3a89feb.css.map": "/static/css/main.f3a89feb.css.map",
-    "main.3cd51cee.js.map": "/static/js/main.3cd51cee.js.map"
+    "main.b7ba4035.js.map": "/static/js/main.b7ba4035.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a89feb.css",
-    "static/js/main.3cd51cee.js"
+    "static/js/main.b7ba4035.js"
   ]
 }
