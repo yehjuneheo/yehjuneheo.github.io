@@ -80,7 +80,7 @@ function Project () {
             title: 'Comparative Analysis of CNN Approaches for Fingerprint Anti-Spoofing',
             tools: ['Python','TensorFlow', 'Scikit-Learn'],
             description: 'This paper contributes to finding a reliable and practical anti-spoofing method using convolutional neural networks (CNN). Among various models of CNN, this paper compares six models: LeNet, AlexNet, GoogLeNet, VggNet,  ResNet, and DenseNet, in order to find the most proper models for fingerprint anti-spoofing. The model with the highest average accuracy is reinforced by the change in various parameters. In addition to the highest generalization performance, this paper also contains the models with high accuracy associated with parameters and mean average error rates to find the model that consumes the least memory and computation time for training and testing.',
-            link:"TBD",
+            link:"TBD2",
             delay: 300,
           },
           {
