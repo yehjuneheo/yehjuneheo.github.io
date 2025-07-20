@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.b4ba3786.css",
-    "main.js": "./static/js/main.47f90364.js",
+    "main.js": "./static/js/main.e795c9cd.js",
     "static/media/neurapi_image.png": "./static/media/neurapi_image.24c81b326d09bfaaee25.png",
     "static/media/image_cog.png": "./static/media/image_cog.97d8c6f520ea36b568bf.png",
     "static/media/meetingu-cover3.png": "./static/media/meetingu-cover3.8abba1de11a72d57b528.png",
@@ -14,18 +14,21 @@
     "static/media/ut2.jpg": "./static/media/ut2.b823b7f535ff93c90cd2.jpg",
     "static/media/awsimage.jpg": "./static/media/awsimage.2d21a39b62a39ecb52b6.jpg",
     "static/media/loss2.jpg": "./static/media/loss2.5565643cbf1f86d3a62f.jpg",
+    "static/media/gcp_digital_logo.png": "./static/media/gcp_digital_logo.7575402017eb3bd21b91.png",
     "static/media/utalk2.png": "./static/media/utalk2.aa278c76644ec7dd76dc.png",
     "static/media/architecture_for2.png": "./static/media/architecture_for2.81cedcc0c69af6b618e3.png",
     "static/media/aws_saa_logo.png": "./static/media/aws_saa_logo.7b8f01bb2fb06bc0c6c4.png",
     "static/media/aws_sap_logo.png": "./static/media/aws_sap_logo.94811cb3a02369a8090f.png",
+    "static/media/sf_ba_logo.png": "./static/media/sf_ba_logo.6a07f92539c90cbcbd4e.png",
     "static/media/aws_aif_logo.png": "./static/media/aws_aif_logo.b1a05dd44c319627dc8e.png",
     "static/media/aws_sec_logo.png": "./static/media/aws_sec_logo.0596d40186bb05f29e1c.png",
+    "static/media/mic_az_logo.png": "./static/media/mic_az_logo.6da2ecffe97ec07040a5.png",
     "index.html": "./index.html",
     "main.b4ba3786.css.map": "./static/css/main.b4ba3786.css.map",
-    "main.47f90364.js.map": "./static/js/main.47f90364.js.map"
+    "main.e795c9cd.js.map": "./static/js/main.e795c9cd.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ba3786.css",
-    "static/js/main.47f90364.js"
+    "static/js/main.e795c9cd.js"
   ]
 }
